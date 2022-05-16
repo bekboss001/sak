@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@font-face {
+    font-family: 'Zen Loop';
+    src: url('../fonts/ZenLoop-Italic.woff2') format('woff2'),
+        url('../fonts/ZenLoop-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zen Loop';
+    src: url('../fonts/ZenLoop-Regular.woff2') format('woff2'),
+        url('../fonts/ZenLoop-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    /* Обнуление */
+
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+    font-size: 18px;
+}
+
+
+/* Main */
+
+h1, .head1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 15px;
+    color: #FFC000;
+}
+.text {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200%;
+    text-shadow: 7px 7px 15px #000;
+    color: #A60000;
+}
+.nav {
+    font-size: 25px;
+    font-weight: 600;
+    text-indent: 10px;
+    line-height: 2;
+}
+.nav2 {
+    font-size: 18px;
+    line-height: 2;
+    text-indent: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav3 {
+    font-size: 15px;
+    text-indent: 50px;
+    font-weight: 400;
+}
+main{
+    line-height: 150%;
+}
+h3 {
+    color: #1D7373;
+}
+main div p {
+    color: #2A4480;
+}
+.text2 span {
+    font-style: italic;
+    word-spacing: normal;
+}
+.underline {
+    text-decoration: underline;
+}
+.footer {
+    line-height: 150%;
+    word-spacing: 5px;
+    text-align: center;
+    font-family: "Zen Loop";
+    font-weight: bold;
+    font-size: 25px;
+    color: #FF7400;
+}
+.bottom {
+    text-align: center;
+    
+}
